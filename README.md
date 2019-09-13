@@ -22,6 +22,7 @@ Support unit testing in clones of the
     fbde06c5abc5da969db984bb4ce5e6e0  earth_topo_050714.tf
     6445f12003d1effcb432ea2671a51f18  gm_de431.tpc
     d8d742db3f9502571fb5a5f8c55e8e62  mar022-1.bsp
+    a938c271be63e0e5aa2ec86db89af109  mro_v15.tf
     25a2fff30b0dedb4d76c06727b1895b1  naif0012.tls
     da153641f7346bd5b6a1226778e0d51b  pck00010.tpc
     68261460433bfc67b9e57bb57f79c5c9  phobos_lores.bds
@@ -46,6 +47,7 @@ The original sources for most of these kernels are from the generic_kernels sect
     https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar022-1.bsp
     https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0012.tls
     https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00010.tpc
+    https://naif.jpl.nasa.gov/pub/naif/MRO/kernels/fk/mro_v15.tf
     https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/sclk/vg200022.tsc
 
 N.B. The DSK phobos_lores.bds comes from a 10deg x 10deg SPUD shape model of Phobos created by Peter C. Thomas at Cornell University, and is used by permission.
