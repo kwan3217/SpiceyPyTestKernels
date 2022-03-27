@@ -28,6 +28,8 @@ Support unit testing in clones of the
     68261460433bfc67b9e57bb57f79c5c9  phobos_lores.bds
     4bcaf22788efbd86707c4b3c4d63c0c3  vg200022.tsc
     9a565ded819a9f0c6423b46f04e000db  geophysical.ker
+    8ed34eb77b21ac611f4680806677edfb  mro_psp4_ssd_mro95a_sub.bsp
+
 
 ## Source kernels
 
@@ -51,7 +53,32 @@ The original sources for most of these kernels are from the generic_kernels sect
     https://naif.jpl.nasa.gov/pub/naif/MRO/kernels/fk/mro_v15.tf
     https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/sclk/vg200022.tsc
     https://naif.jpl.nasa.gov/pub/naif/pds/wgc/test/geophysical.ker
+    https://naif.jpl.nasa.gov/pub/naif/pds/data/mro-m-spice-6-v1.0/mrosp_1000/data/spk/mro_psp4_ssd_mro95a.bsp
 
 N.B. The DSK phobos_lores.bds comes from a 10deg x 10deg SPUD shape model of Phobos created by Peter C. Thomas at Cornell University, and is used by permission.
 
 N.B. The SPK de405s_bigendian.bsp is a copy of the NAIF generic kernel de405s.bsp, and de405s_littleendian.bsp was gererated from de405s_bigendian.bsp by the BINGO SPICE utility; see https://naif.jpl.nasa.gov/pub/naif/utilities/PC_Windows_32bit/bingo.ug.
+
+## sub kernels
+certain kernels are subset from origional files to reduce file sizes for CI .
+
+### SPKMERGE example
+below is an example command file to pass to spkmerge to subset an spk file
+
+```
+LEAPSECONDS_KERNEL  = naif0012.tls
+
+SPK_KERNEL = mro_psp4_ssd_mro95a_sub.bsp
+  LOG_FILE = spkmerge.log
+  SOURCE_SPK_KERNEL = mro_psp4_ssd_mro95a.bsp
+  BEGIN_TIME      = 29 SEP 2007 00:00:00.000
+  END_TIME        = 01 OCT 2007 00:00:00.000
+```
+
+
+
+
+
+
+
+
