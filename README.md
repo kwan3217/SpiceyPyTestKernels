@@ -29,6 +29,7 @@ Support unit testing in clones of the
     4bcaf22788efbd86707c4b3c4d63c0c3  vg200022.tsc
     9a565ded819a9f0c6423b46f04e000db  geophysical.ker
     8ed34eb77b21ac611f4680806677edfb  mro_psp4_ssd_mro95a_sub.bsp
+    0b49545fa316f9053f5cfbcce155becc  de430sub.bsp
 
 
 ## Source kernels
@@ -54,6 +55,7 @@ The original sources for most of these kernels are from the generic_kernels sect
     https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/sclk/vg200022.tsc
     https://naif.jpl.nasa.gov/pub/naif/pds/wgc/test/geophysical.ker
     https://naif.jpl.nasa.gov/pub/naif/pds/data/mro-m-spice-6-v1.0/mrosp_1000/data/spk/mro_psp4_ssd_mro95a.bsp
+    https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp
 
 N.B. The DSK phobos_lores.bds comes from a 10deg x 10deg SPUD shape model of Phobos created by Peter C. Thomas at Cornell University, and is used by permission.
 
