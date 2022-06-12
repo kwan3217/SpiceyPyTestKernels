@@ -30,7 +30,8 @@ Support unit testing in clones of the
     9a565ded819a9f0c6423b46f04e000db  geophysical.ker
     8ed34eb77b21ac611f4680806677edfb  mro_psp4_ssd_mro95a_sub.bsp
     0b49545fa316f9053f5cfbcce155becc  de430sub.bsp
-
+    2f4dba65649246d72836fb3b53823c3d  VEX_BOOM_V01.BC
+    f59ef0556dfc63b55465e152f2d6f5a4  vo2_swu_ck2.bc
 
 ## Source kernels
 
@@ -56,6 +57,8 @@ The original sources for most of these kernels are from the generic_kernels sect
     https://naif.jpl.nasa.gov/pub/naif/pds/wgc/test/geophysical.ker
     https://naif.jpl.nasa.gov/pub/naif/pds/data/mro-m-spice-6-v1.0/mrosp_1000/data/spk/mro_psp4_ssd_mro95a.bsp
     https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp
+    https://naif.jpl.nasa.gov/pub/naif/VEX/kernels/ck/VEX_BOOM_V01.BC
+    https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/ck/vo2_swu_ck2.bc
 
 N.B. The DSK phobos_lores.bds comes from a 10deg x 10deg SPUD shape model of Phobos created by Peter C. Thomas at Cornell University, and is used by permission.
 
