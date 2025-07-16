@@ -27,6 +27,7 @@ Support unit testing in clones of the
     da153641f7346bd5b6a1226778e0d51b  pck00010.tpc
     68261460433bfc67b9e57bb57f79c5c9  phobos_lores.bds
     4bcaf22788efbd86707c4b3c4d63c0c3  vg200022.tsc
+    92ac30ccb1c1de6149058aef342da593  vg1_jup_version1_type1_iss_sedr.bc
     9a565ded819a9f0c6423b46f04e000db  geophysical.ker
     8ed34eb77b21ac611f4680806677edfb  mro_psp4_ssd_mro95a_sub.bsp
     0b49545fa316f9053f5cfbcce155becc  de430sub.bsp
@@ -54,6 +55,7 @@ The original sources for most of these kernels are from the generic_kernels sect
     https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00010.tpc
     https://naif.jpl.nasa.gov/pub/naif/MRO/kernels/fk/mro_v15.tf
     https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/sclk/vg200022.tsc
+    https://pds-rings.seti.org/voyager/ck/vg1_jup_version1_type1_iss_sedr.bc
     https://naif.jpl.nasa.gov/pub/naif/pds/wgc/test/geophysical.ker
     https://naif.jpl.nasa.gov/pub/naif/pds/data/mro-m-spice-6-v1.0/mrosp_1000/data/spk/mro_psp4_ssd_mro95a.bsp
     https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp
@@ -63,6 +65,8 @@ The original sources for most of these kernels are from the generic_kernels sect
 N.B. The DSK phobos_lores.bds comes from a 10deg x 10deg SPUD shape model of Phobos created by Peter C. Thomas at Cornell University, and is used by permission.
 
 N.B. The SPK de405s_bigendian.bsp is a copy of the NAIF generic kernel de405s.bsp, and de405s_littleendian.bsp was gererated from de405s_bigendian.bsp by the BINGO SPICE utility; see https://naif.jpl.nasa.gov/pub/naif/utilities/PC_Windows_32bit/bingo.ug.
+
+The Voyager 1 Jupiter scan platform comes from [Mark Showalter](https://pds-rings.seti.org/voyager/ck/)
 
 ## sub kernels
 certain kernels are subset from origional files to reduce file sizes for CI .
